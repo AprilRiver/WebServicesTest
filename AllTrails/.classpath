@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-10">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/Utility/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="src/Utility/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="src/Utility/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="src/Utility/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="src/Utility/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="src/Utility/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="src/Utility/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="src/Utility/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="src/Utility/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="src/Utility/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="src/Utility/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="src/Utility/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="src/Utility/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="src/Utility/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/Utility/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="src/Utility/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="src/Utility/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="src/Utility/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="src/Utility/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="src/Utility/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/poi-4.0.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/poi-examples-4.0.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/poi-excelant-4.0.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/poi-ooxml-4.0.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/poi-ooxml-schemas-4.0.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/poi-scratchpad-4.0.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/selenium-server-standalone-3.14.0.jar"/>
+	<classpathentry kind="lib" path="src/Utility/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="src/Utility/xmlbeans-3.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
