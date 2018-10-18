@@ -17,6 +17,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -50,9 +51,12 @@ public class SetUp {
 
 	public static void initializeExtentReport()
 	{
-		htmlReporter =  new ExtentHtmlReporter("./Reports/exeReport.html");
+		
+		String fileName = "./Reports/"+"Run_"+new SimpleDateFormat("dd-MM-yyyy@HH:mm:ss").format(new Date())+".html";
+		//String fileName ="./Reports/Run.html" ;
+		htmlReporter =  new ExtentHtmlReporter(fileName);
 		extent= new ExtentReports ();	
-		System.out.println("Created Report");
+		System.out.println("Created Report: " +fileName);
 	}
 
 
@@ -189,6 +193,8 @@ public class SetUp {
 		else
 			throw new Exception("Unknown locator type '" + locatorType + "'");
 	}
+	
+	
 	/* 
 	 * Name of the Method: enterText
 	 * Brief Description: Enters text to text field
@@ -196,7 +202,9 @@ public class SetUp {
 	 * Created By: Automation team
 	 * Creation Date: Oct 09 2018
 	 * Last Modified: Oct 09 2018 
-	 */public static String[][] readSheet(String dt_Path, String sheetName) throws IOException{
+	 */
+	
+	public static String[][] readSheet(String dt_Path, String sheetName) throws IOException{
 
 
 		 /*Step 1: Get the XL Path*/
@@ -255,8 +263,15 @@ public class SetUp {
 		 }
 		 else if (webBrowserName.equalsIgnoreCase("chrome"))
 		 {
-			 logger.log(Status.FAIL, MarkupHelper.createLabel("chrome NOT ready", ExtentColor.RED));
-			 System.out.println("CHROME not ready yet ");
+			 System.setProperty("webdriver.chrome.driver",configProp.getProperty("chrome_driver_path"));
+			 System.out.println(configProp.getProperty("chrome_driver_path"));
+			 driver=new ChromeDriver();
+			 //get implicit wait from config file
+			 int waitTime = Integer.parseInt(configProp.getProperty("implicit_wait_time"));
+
+			 driver.manage().timeouts().implicitlyWait(waitTime, TimeUnit.SECONDS);
+			 logger.log(Status.PASS, MarkupHelper.createLabel("Opened : Chrome", ExtentColor.GREEN));
+			 System.out.println("Opened : chrome");
 		 }
 		 else if (webBrowserName.equalsIgnoreCase("IE"))
 		 {
