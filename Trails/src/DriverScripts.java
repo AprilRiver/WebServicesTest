@@ -8,15 +8,10 @@ public class DriverScripts extends AutomationScripts{
 		// TODO Auto-generated method stub
 
 
-		String dt_Path = "/Users/pattulohith/eclipse-workspace/Trails/src/testData1.xls";
-
-
+		String dt_Path = "/Users/pattulohith/eclipse-workspace/gitRepository/Trails/src/testData1.xls";
 		String[][] recdata = ReusableMethods.readSheet(dt_Path, "Sheet1");
 
-
 		String testCase = recdata[0][0];
-
-
 
 		/*Java Reflection */
 		Method testScript = AutomationScripts.class.getMethod(testCase);
