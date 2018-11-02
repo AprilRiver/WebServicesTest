@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-18T23:27:45Z" name="Default suite" finished-at="2018-10-18T23:28:05Z" duration-ms="19977">
+    <groups>
+    </groups>
+    <test started-at="2018-10-18T23:27:45Z" name="Default test" finished-at="2018-10-18T23:28:05Z" duration-ms="19977">
+      <class name="scripts.TestScripts">
+        <test-method is-config="true" signature="driverMethod()[pri:0, instance:scripts.TestScripts@12aba8be]" started-at="2018-10-18T23:27:44Z" name="driverMethod" finished-at="2018-10-18T23:27:45Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverMethod -->
+        <test-method signature="TC01_LoginErrorMessage()[pri:0, instance:scripts.TestScripts@12aba8be]" started-at="2018-10-18T23:27:45Z" name="TC01_LoginErrorMessage" finished-at="2018-10-18T23:27:49Z" duration-ms="3984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginErrorMessage -->
+        <test-method is-config="true" signature="afterEveryTC()[pri:0, instance:scripts.TestScripts@12aba8be]" started-at="2018-10-18T23:27:49Z" name="afterEveryTC" finished-at="2018-10-18T23:27:49Z" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTC -->
+        <test-method signature="TC03_CheckRememberMe()[pri:0, instance:scripts.TestScripts@12aba8be]" started-at="2018-10-18T23:27:49Z" name="TC03_CheckRememberMe" finished-at="2018-10-18T23:28:04Z" duration-ms="15280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_CheckRememberMe -->
+        <test-method is-config="true" signature="afterEveryTC()[pri:0, instance:scripts.TestScripts@12aba8be]" started-at="2018-10-18T23:28:04Z" name="afterEveryTC" finished-at="2018-10-18T23:28:05Z" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTC -->
+      </class> <!-- scripts.TestScripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
