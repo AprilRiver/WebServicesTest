@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2692" started-at="2018-11-16T22:39:29Z" finished-at="2018-11-16T22:39:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2692" started-at="2018-11-16T22:39:29Z" finished-at="2018-11-16T22:39:32Z">
+      <class name="LandlordTest.Scripts">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:LandlordTest.Scripts@10dba097]" name="setUp" is-config="true" duration-ms="268" started-at="2018-11-16T22:39:29Z" finished-at="2018-11-16T22:39:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="q1_getAllLandlords_empty_db()[pri:1, instance:LandlordTest.Scripts@10dba097]" name="q1_getAllLandlords_empty_db" duration-ms="1077" started-at="2018-11-16T22:39:29Z" finished-at="2018-11-16T22:39:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q1_getAllLandlords_empty_db -->
+        <test-method status="PASS" signature="q2_add_lanlord_usingPOJO()[pri:2, instance:LandlordTest.Scripts@10dba097]" name="q2_add_lanlord_usingPOJO" duration-ms="1082" started-at="2018-11-16T22:39:30Z" finished-at="2018-11-16T22:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q2_add_lanlord_usingPOJO -->
+        <test-method status="PASS" signature="q3_edit_lanlord()[pri:3, instance:LandlordTest.Scripts@10dba097]" name="q3_edit_lanlord" duration-ms="167" started-at="2018-11-16T22:39:31Z" finished-at="2018-11-16T22:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q3_edit_lanlord -->
+        <test-method status="PASS" signature="q4_invalid_edit_landlord()[pri:4, instance:LandlordTest.Scripts@10dba097]" name="q4_invalid_edit_landlord" duration-ms="29" started-at="2018-11-16T22:39:32Z" finished-at="2018-11-16T22:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q4_invalid_edit_landlord -->
+        <test-method status="PASS" signature="q5_get_landlord_by_id()[pri:5, instance:LandlordTest.Scripts@10dba097]" name="q5_get_landlord_by_id" duration-ms="42" started-at="2018-11-16T22:39:32Z" finished-at="2018-11-16T22:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- q5_get_landlord_by_id -->
+      </class> <!-- LandlordTest.Scripts -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
