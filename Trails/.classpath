@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="javaHeeti"/>
 	<classpathentry kind="lib" path="Utility/activation-1.1.1.jar"/>
 	<classpathentry kind="lib" path="Utility/bsh-2.0b4.jar"/>
 	<classpathentry kind="lib" path="Utility/bson-3.3.0.jar"/>
