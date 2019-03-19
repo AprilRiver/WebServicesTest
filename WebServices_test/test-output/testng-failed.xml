@@ -5,8 +5,7 @@
     <classes>
       <class name="LandlordTest.Scripts">
         <methods>
-          <include name="q1_getAllLandlords_empty_db"/>
-          <include name="setUp"/>
+          <include name="dummy"/>
         </methods>
       </class> <!-- LandlordTest.Scripts -->
     </classes>
